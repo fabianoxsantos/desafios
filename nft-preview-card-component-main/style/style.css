@@ -1,0 +1,137 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    background-image: radial-gradient(hsl(216, 56%, 18%), hsl(217, 54%, 11%));
+    
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 520px;
+    background-color: hsl(215, 50%, 19%);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+main .hero-img{
+    width: 95%;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 7px;
+}
+
+main section{
+    margin-left: 10px;
+}
+
+main section h1 {
+    color: white;
+    font-size: 1.2em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+main section p {
+    color: hsl(215, 51%, 70%);
+    font-size: 0.88em;
+    font-weight: 300;
+    letter-spacing: 0.08;
+    margin-bottom: 20px;
+ 
+}  
+
+main #infos {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+    
+    
+       
+}
+
+  
+
+main #infos .text {
+    color: hsl(178, 100%, 50%);
+    font-size: 0.8em;
+}
+
+
+
+main #infos .value{
+    display: flex;
+    align-items: center;
+}
+main #infos .icon-value {
+        margin-right: 10px;
+    }
+
+main #infos .icon-date {
+    margin-right: 10px;
+}
+
+
+
+main #infos .date{
+    display: flex;
+    align-items: center;
+    width: 100px;
+    
+}
+
+main #infos .date {
+    width: 110px;
+    color: hsl(215, 51%, 70%);
+    font-size: 0.9em;
+    
+}
+
+main footer {
+    display: flex;
+    align-items: center;
+    
+}
+
+main .line {
+    width: 95%;
+    height: 0.5px;
+    background-color: hsl(215, 51%, 70%);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+main footer img {
+    width: 10%;
+    background-color: white;
+    border: solid 1px white;
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-right: 15px; 
+}
+
+main footer .author{
+    font-size: 0.8em;
+    color: hsl(215, 51%, 70%);
+
+}
+
+main footer .author a{
+    text-decoration: none;
+    color: white;
+}
