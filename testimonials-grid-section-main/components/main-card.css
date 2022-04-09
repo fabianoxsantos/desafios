@@ -1,0 +1,55 @@
+.main-card{
+    display: block;
+    position: relative;
+    width: 30rem;
+    height: 16.5rem;
+    padding: 2em;
+    background-color: hsl(263, 55%, 52%);
+    border-radius: 10px;
+    box-shadow: 0px 20px 30px hsla(217, 19%, 35%, 0.407);
+}
+
+main .main-card::before{
+    content: '“';
+    position: absolute;
+    left: 15rem;
+    top: -5rem;
+    font-size: 35em;
+    color:rgba(255, 255, 255, 0.193);
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+main .main-card .id {
+    display: flex;
+    align-items: center;
+}
+
+main .main-card .id .dados .name{
+    font-size: 0.7em;
+    color: hsla(0, 0%, 81%, 0.747);
+}
+
+main .main-card .id .dados .cargo{
+    font-size: 0.6em;
+    color: hsla(0, 0%, 81%, 0.5);
+}
+
+main .main-card .id .foto img {
+    width: 2.5em;
+    border-radius: 50px;
+    border: 1px solid hsla(0, 0%, 81%, 0.747);
+    margin-right: 0.9em;
+}
+
+main .main-card .title {
+    font-size: 0.55rem;
+    color: #fff;
+    margin: 15px 0px;
+    
+}
+
+main .main-card .paragraph {
+    color: hsla(0, 0%, 81%, 0.747);
+    font-size: 0.85em;
+    line-height: 1.5em;
+}
