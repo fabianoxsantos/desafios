@@ -1,0 +1,135 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.4em;
+    line-height: 1.2em;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    color: rgba(255, 255, 255, 0.604);
+}
+
+body {
+    width: 90vw;
+    height: 90vh;
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(/images/bg-desktop.svg);
+    background-repeat: no-repeat;
+
+}
+
+header{
+    width: 80vw;
+}
+
+header .logo{
+    min-width: 20vw;
+    padding-top: 40px;
+    padding-left: 80px;
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 93vw;
+    height: 75vh;
+    padding-top: 50px;
+    padding-left: 80px;
+}
+
+.screen img {
+    width: 50vw;
+}
+
+.info {
+    width: 40vw;
+    padding-left: 50px;
+    margin-top: 40px;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    background-color: #fff;
+    border: none;
+    border-radius: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    color: hsla(257, 40%, 49%, 0.681);
+    margin-top: 35px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.257);
+    transition: ease-in-out all;
+}
+
+button:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    
+    
+
+}
+
+
+footer{
+    display: flex;
+    justify-content: flex-end;
+    width: 95vw;
+    height: 30px;
+    margin-right: 40px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-evenly;
+    width: 250px;
+    height: 30px;
+    margin-right: 40px;
+    
+}
+
+.circle{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    border: 1.5px solid white;
+    border-radius: 50px;
+
+}
+.circle:hover {
+    border: 1.5px solid hsl(300, 69%, 71%);
+    background-color: rgba(232, 130, 232, 0.17);
+
+}
+
+.icon {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-left: 12px;
+    margin-top: 12px;
+    cursor: pointer;
+    
+}
+.icon:hover {
+    background-color: rgba(232, 130, 232, 0.17);
+    
+}
+
+
+
+
