@@ -1,0 +1,45 @@
+.small-white-card{
+    display: block;
+    position: relative;
+    width: 14rem;
+    height: 16.5rem;
+    padding: 2em;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 20px 30px hsla(217, 19%, 35%, 0.407);
+}
+
+main .small-white-card .id {
+    display: flex;
+    align-items: center;
+}
+
+main .small-white-card .id .dados .name{
+    font-size: 0.7em;
+    color: hsl(217, 19%, 35%);
+}
+
+main .small-white-card .id .dados .cargo{
+    font-size: 0.6em;
+    color: hsla(217, 19%, 35%, 0.5);
+}
+
+main .small-white-card .id .foto img {
+    width: 2.5em;
+    border-radius: 50px;
+    border: 1px solid hsla(0, 0%, 81%, 0.747);
+    margin-right: 0.9em;
+}
+
+main .small-white-card .title {
+    font-size: 0.55rem;
+    color: hsl(217, 19%, 35%);
+    margin: 15px 0px;
+    
+}
+
+main .small-white-card .paragraph {
+    color: hsla(217, 19%, 35%, 0.752);
+    font-size: 0.85em;
+    line-height: 1.5em;
+}
