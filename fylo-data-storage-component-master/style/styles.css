@@ -18,20 +18,21 @@ body {
 
 main {
     width: 100vw;
-    height: 100vh;
+    height: 60vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
+    gap: 30px;
 }
 
 main .principal {
    display: flex;
    flex-direction: column;
    justify-content: center;
-   width: 23em;
+   width: 22em;
    height: 12em; 
    background-color: hsl(228, 56%, 26%);
-   border-radius: 10px 80px 10px 10px;
+   border-radius: 10px 90px 10px 10px;
    padding: 10px 0px 10px 50px;
    
 }
@@ -46,13 +47,18 @@ main .principal i img{
 }
 
 main .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
     
 }
 
 main .info .baloom {
-    width: 50%;
+    width: 35%;
     display: flex;
     align-items: center;
+    justify-items: center;
     background-color: #fff;
     gap: 10px; 
     padding: 20px;
@@ -71,7 +77,53 @@ main .info .baloom h2 {
 }
 
 main .info .counter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 500px;
+    height: 150px;
     background-color: hsl(228, 56%, 26%);
+    border-radius: 10px;
+} 
+
+main .info .counter h3 {
+    font-size: 0.9em;
+    color: hsl(229, 16%, 74%);
+    font-weight: 200;
+
+}
+
+main .info .counter .bar  {
+    width: 80%;
+    height: 13%;
+    background-color: hsla(229, 57%, 11%, 0.484);
+    border-radius: 50px;
+    margin-top: 12px;
+
+}
+
+ .bar:after  {
+    width: 50%;
+    height: 5%;
+    background-color: hsla(44, 91%, 51%, 0.484);
+    border-radius: 50px;
+    margin-top: 12px;
+
+}
+
+main .info .counter .space strong {
+    font-size: 0.8em;
+    color: hsl(229, 16%, 74%);
+
+
+}
+
+.bar-progress {
+    width: 450px;
+    background-image: linear-gradient(hsl(6, 100%, 80%) to hsl(335, 100%, 65%));
+    background-color: hsl(228, 56%, 26%);
+    
 }
 
 
