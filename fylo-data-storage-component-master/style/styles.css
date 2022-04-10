@@ -1,0 +1,79 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(229, 57%, 11%);
+    background-image: url(/images/bg-desktop.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .principal {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   width: 23em;
+   height: 12em; 
+   background-color: hsl(228, 56%, 26%);
+   border-radius: 10px 80px 10px 10px;
+   padding: 10px 0px 10px 50px;
+   
+}
+
+main .principal i img{
+    padding: 15px;
+    height: 50px;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 10px;
+    margin-top: 2em;
+    margin-right: 10px;
+}
+
+main .info {
+    
+}
+
+main .info .baloom {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    gap: 10px; 
+    padding: 20px;
+    border-radius: 10px 10px 0px 10px;
+}
+
+main .info .baloom h1 {
+    color: black;
+      
+}
+
+main .info .baloom h2 {
+    color: rgba(0, 0, 0, 0.463);
+    font-size: 0.8em;
+    
+}
+
+main .info .counter {
+    background-color: hsl(228, 56%, 26%);
+}
+
+
+
+
