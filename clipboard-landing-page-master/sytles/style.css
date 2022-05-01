@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1440px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    background-image: url(/images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+}
+
+:root {
+    --primaryStrongCyan: hsl(171, 66%, 44%);
+    --primaryLightBlue: hsl(233, 100%, 69%);
+
+    --neutralDarkGrayishBlue: hsl(210, 10%, 33%);
+    --neutralGrayishBlue: hsl(201, 11%, 66%);
+    
+}
+
+h1 {
+    color: var(--neutralDarkGrayishBlue);
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 1.6em;
+    font-weight: 700;
+    color: var(--neutralDarkGrayishBlue);
+    margin-bottom: 15px;
+}
+
+
+.main-paragraph {
+    width: 40vw;
+    font-size: 18px;
+    color: var(--neutralGrayishBlue);
+    text-align: center;
+    line-height: 1.5em;
+    margin-bottom: 40px;
+
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .logo {
+    width: 70px;
+    margin-top: 120px;
+    margin-bottom: 30px;
+}
+
+header .btn {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 100px;
+
+}
+
+.main-button {
+    width: 180px;
+    height: 40px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 50px;
+    color: white;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+     
+}
+
+.green {
+    border-bottom: solid 2px rgb(29, 136, 120);
+    background-color: var(--primaryStrongCyan);
+    box-shadow: 0px 10px 20px hsla(171, 65%, 46%, 0.604);
+
+}
+
+.green:hover {
+    background-color: rgb(33, 161, 142);
+}
+
+.blue {
+    border-bottom: solid 2px  hsl(233, 45%, 47%);
+    background-color: var(--primaryLightBlue);
+    box-shadow: 0px 10px 20px hsla(219, 100%, 60%, 0.513);
+
+}
+
+.blue:hover {
+    background-color: hsl(233, 58%, 55%);
+}
+
+.snippets {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.snippets > div {
+    display: flex;
+    gap: 100px;
+    margin-top: 50px;
+    margin-left: -400px;
+}
+
+.snippets ul {
+    width: 25vw;
+    color: var(--neutralGrayishBlue);
+    list-style: none;
+    
+}
+
+.snippets ul li {
+    color: var(--neutralDarkGrayishBlue);
+    font-weight: 600;
+    font-size: 1.1em;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+.snippets > div > ul > p {
+    font-size: 0.9em;
+    line-height: 1.5em;
+}
+
+
+
+
+
+
+

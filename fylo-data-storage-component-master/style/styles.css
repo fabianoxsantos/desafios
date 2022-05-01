@@ -47,6 +47,7 @@ main .principal i img{
 }
 
 main .info {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -55,6 +56,9 @@ main .info {
 }
 
 main .info .baloom {
+    position: absolute;
+    top: -50px;
+    left: 286px;
     width: 35%;
     display: flex;
     align-items: center;
@@ -63,10 +67,12 @@ main .info .baloom {
     gap: 10px; 
     padding: 20px;
     border-radius: 10px 10px 0px 10px;
+    box-shadow: 2px 2px 2px black;
 }
 
 main .info .baloom h1 {
     color: black;
+    margin-left: 8px;
       
 }
 
@@ -85,12 +91,14 @@ main .info .counter {
     height: 150px;
     background-color: hsl(228, 56%, 26%);
     border-radius: 10px;
+    padding-left: 20px;
 } 
 
 main .info .counter h3 {
     font-size: 0.9em;
     color: hsl(229, 16%, 74%);
     font-weight: 200;
+    margin-bottom: 10px;
 
 }
 
@@ -121,9 +129,19 @@ main .info .counter .space strong {
 
 .bar-progress {
     width: 450px;
-    background-image: linear-gradient(hsl(6, 100%, 80%) to hsl(335, 100%, 65%));
-    background-color: hsl(228, 56%, 26%);
+    height: 25px;
     
+    
+    
+}
+
+.space {
+    width: 93%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5px;
+    
+
 }
 
 
