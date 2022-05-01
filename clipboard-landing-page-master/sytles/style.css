@@ -15,14 +15,15 @@ body {
     --primaryStrongCyan: hsl(171, 66%, 44%);
     --primaryLightBlue: hsl(233, 100%, 69%);
 
-    --neutralDarkGrayishBlue: hsl(210, 10%, 33%);
-    --neutralGrayishBlue: hsl(201, 11%, 66%);
+    --neutralDarkGrayishBlue: #4c545d;
+    --neutralGrayishBlue: #9fabb2;
     
 }
 
 h1 {
     color: var(--neutralDarkGrayishBlue);
     margin-bottom: 15px;
+    
 }
 
 h2 {
@@ -30,6 +31,13 @@ h2 {
     font-weight: 700;
     color: var(--neutralDarkGrayishBlue);
     margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 1.1em;
+    font-weight: 600;
+    color: var(--neutralDarkGrayishBlue);
+    
 }
 
 
@@ -42,6 +50,17 @@ h2 {
     margin-bottom: 40px;
 
 }
+
+.second-paragraph {
+    font-size: 14px;
+    color: var(--neutralGrayishBlue);
+    text-align: center;
+    line-height: 1.5em;
+    
+
+}
+
+
 
 header {
     display: flex;
@@ -128,6 +147,37 @@ header .btn {
 .snippets > div > ul > p {
     font-size: 0.9em;
     line-height: 1.5em;
+}
+
+.clipboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.workflow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.workflow .benefits .icon {
+    width: 40px;
+}
+
+.benefits {
+    display: flex;
+    gap: 150px;
+    margin-bottom: 100px;
+}
+
+.benefits > div {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
 }
 
 
