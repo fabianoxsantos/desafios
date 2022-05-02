@@ -20,6 +20,12 @@ body {
     
 }
 
+a {
+    text-decoration: none;
+    color: var(--neutralDarkGrayishBlue);
+    font-size: 1.0em;
+}
+
 h1 {
     color: var(--neutralDarkGrayishBlue);
     margin-bottom: 15px;
@@ -168,8 +174,10 @@ header .btn {
 
 .benefits {
     display: flex;
-    gap: 150px;
-    margin-bottom: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px 100px;
+    
 }
 
 .benefits > div {
@@ -179,6 +187,71 @@ header .btn {
     align-items: center;
     gap: 20px;
 }
+.benefits .icon {
+    height: 35px;
+    
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin: 180px 0px 200px 0px;
+
+}
+
+.system {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+    
+}
+
+.system .btn {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 100px;
+
+}
+
+footer {
+    width: 100vw;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #9fabb21b;
+}
+
+footer div {
+    display: flex;
+    gap: 20px;
+    margin-left: 100px;
+}
+
+footer nav {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+footer .logo-footer{
+    width: 45px;
+    margin-right: 50px;
+    
+
+}
+
+footer .logos-sociais{
+    width: 100px;
+    margin-right: 100px;
+
+}
+
 
 
 
