@@ -24,6 +24,12 @@ h1 {
     font-size: 2.2em;
 }
 
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    color: var(--VeryDarkCyan);
+}
+
 button {
     text-decoration: none;
     border: none;
@@ -35,6 +41,7 @@ header {
     max-width: 100%;
     height: 100vh;
     padding: 0 100px;
+    margin-bottom: 100px;
     background-image: url(images/bg-hero-desktop.svg);
     background-repeat: no-repeat;
     background-color: var(--VeryPaleCyan);
@@ -91,3 +98,86 @@ header .main-hero .hero .main-paragraph{
     margin-bottom: 40px;
 
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+main .main-card{
+    width: 80vw;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.035) ;
+    margin:20px 0px;
+    padding: 100px;
+
+}
+
+main .main-card .info-card{
+    width: 50%;
+    
+
+}
+
+main .main-card .card-ilustra {
+    width: 40%;
+    
+    
+    
+
+}
+
+main .main-card .info-card .card-paragraph {
+    color: var(--GrayishBlue);
+    font-size: 0.95em;
+    line-height: 1.5em;
+    margin-top: 15px;
+
+}
+
+main .call-card{
+    width: 60vw;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.035) ;
+    margin:130px 0px;
+    padding: 50px;
+
+}
+
+main .call-card .second-buttonXL {
+    background-color: var(--Pink);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.0em;
+    color: white;
+    border-radius: 50px;
+    padding: 30px 130px;
+    box-shadow: 0px 5px 8px  hsla(322, 100%, 66%, 0.213);
+
+}
+
+main .call-card .second-buttonXL:hover{
+    background-color: hsl(322, 87%, 78%);
+}
+
+footer{
+    background-color: var(--VeryDarkCyan);
+    color: var(--GrayishBlue);
+}
+
+
+footer .logo-footer {
+    
+    fill: aqua;
+}
+
